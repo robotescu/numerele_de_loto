@@ -4,7 +4,7 @@ input.onButtonPressed(Button.A, function on_button_pressed_a() {
     let numar: number;
     let numerele_castigatoare = []
     for (i = 0; i < 6; i++) {
-        numar = randint(0, 49)
+        numar = randint(1, 49)
         while (numerele_castigatoare.indexOf(numar) >= 0) {
             numar = randint(1, 49)
         }

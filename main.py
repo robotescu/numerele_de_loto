@@ -2,7 +2,7 @@ basic.show_string("Apasa A")
 def on_button_pressed_a():
     numerele_castigatoare = []        
     for i in range (0,6):
-        numar = randint(0, 49)
+        numar = randint(1, 49)
         while numar in numerele_castigatoare:
             numar = randint(1, 49)
         numerele_castigatoare.push(numar)  
